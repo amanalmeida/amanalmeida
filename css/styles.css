@@ -241,7 +241,7 @@ html {
   object-fit: cover;
   opacity: 0.5;
   animation-name: scale;
-  animation-duration: 25s;
+  animation-duration: 30s;
   overflow: hidden;
   clip: auto;
 }
@@ -262,7 +262,7 @@ html {
 
 .banner {
   position: absolute;
-  top: 30%;
+  top: 10%;
   left: 10%;
 }
 
@@ -932,15 +932,15 @@ html {
     }
 
     .field {
-      width: 35rem;
+      width: 30rem;
     }
 
     .input-group textarea {
-      max-width: 35rem;
+      max-width: 30rem;
     }
 
     .submit-btn {
-      width: 35rem;
+      width: 25rem;
     }
   }
 

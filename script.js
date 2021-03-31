@@ -4,6 +4,10 @@ window.onload = () => {
   }, 2000);
 }
 
+document.querySelector(".menu").addEventListener("click", () => {
+  document.querySelector(".container").classList.toggle("change");
+});
+
 document.querySelector(".hamburger-menu").addEventListener("click", () => {
     document.querySelector(".container").classList.toggle("change");
   });
