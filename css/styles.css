@@ -62,7 +62,7 @@ html {
   100% {
     opacity: 0;
     visibility: hidden;
-  }f
+  }
 }
 
 .circles div {
@@ -840,7 +840,6 @@ html {
     flex-direction: column;
     align-items: center;
     margin-top: 4rem;
-
   }
   .card {
     margin-bottom: 8rem;
