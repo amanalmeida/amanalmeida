@@ -3,7 +3,7 @@ window.onload = () => {
     document.querySelector("body").classList.add('display');
   }, 2000);
 }
-
+// toggles menu closing for mobile app users.
 document.querySelector(".menu").addEventListener("click", () => {
   document.querySelector(".container").classList.toggle("change");
 });

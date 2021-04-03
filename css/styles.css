@@ -830,6 +830,16 @@ html {
     padding-bottom: 5rem;
   }
 
+  .banner button {
+    width: 18rem;
+    height: 4rem;
+    font-size: 1.5rem;
+  }
+
+  .field {
+    margin: 2rem 0;
+  }
+
   .cards-wrapper {
     flex-direction: column;
     align-items: center;
@@ -852,10 +862,6 @@ html {
 
   .contact-heading {
     margin-bottom: 2rem;
-  }
-
-  .field {
-    margin: 2rem 0;
   }
 }
 
@@ -932,15 +938,15 @@ html {
     }
 
     .field {
-      width: 30rem;
+      width: 25rem;
     }
 
     .input-group textarea {
-      max-width: 30rem;
+      max-width: 25rem;
     }
 
     .submit-btn {
-      width: 25rem;
+      width: 20rem;
     }
   }
 
