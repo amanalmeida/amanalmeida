@@ -8,15 +8,17 @@ document.querySelector(".menu").addEventListener("click", () => {
   document.querySelector(".container").classList.toggle("change");
 });
 
+//also closes menu for mobile users.
 document.querySelector(".hamburger-menu").addEventListener("click", () => {
     document.querySelector(".container").classList.toggle("change");
   });
 
-  document.querySelector(".scroll-btn").addEventListener("click", () => {
-    document.querySelector("html").style.scrollBehavior = "smooth";
+//toggles the animation for bottom right arrow to move to the top of page
+document.querySelector(".scroll-btn").addEventListener("click", () => {
+  document.querySelector("html").style.scrollBehavior = "smooth";
     setTimeout(() => {
       document.querySelector("html").style.scrollBehavior = "unset";
-    }, 1000);
+    }, 2000);
   });
 
   var form = document.getElementById("my-form");

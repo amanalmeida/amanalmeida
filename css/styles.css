@@ -726,7 +726,7 @@ html {
 
 #status.success {
   background-color: rgba(0, 128, 0, 0.295);
-  animation: status 4s ease;
+  animation: status 4s ease forwards;
 }
 
 #status.error {
@@ -785,7 +785,7 @@ html {
   font-size: 2rem;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1800px) {
   .about-me-img-wrapper {
     grid-row: 2 / 6;
   }
